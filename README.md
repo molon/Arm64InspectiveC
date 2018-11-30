@@ -1,8 +1,14 @@
 # Arm64InspectiveC
-Based on InspectiveC.  https://github.com/DavidGoldman/InspectiveC
+Based on InspectiveC(https://github.com/DavidGoldman/InspectiveC). 
+No theos/tweak/cycript env depend.
+
+### Why this?
+We just need a simple view for a small runtime logic sometimes.
+So we just want to print the view on console and we can switch print/no any time.
 
 ### Different from the official
-- Directly import the source code into objective-c project.
+- Pure source code.
+- No theos/tweak/cycript env depend.
 - The result log will print on the console.
 
 # Usage
